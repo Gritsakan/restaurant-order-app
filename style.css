@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 611px;
+  height: 1111px;
+  margin: 0px auto;
+}
+
+header img {
+  height: 167px;
+  object-fit: cover;
+  width: 611px;
+  padding: 0px;
+}
+
+.menu {
+  display: flex;
+  padding: 20px 30px;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+.emo-container {
+  width: 100px;
+  text-align: center;
+}
+
+span.emoji {
+  font-size: 40px;
+  vertical-align: center;
+  line-height: 2;
+  margin: 0px;
+  padding: 0px;
+}
+.content p {
+  font-weight: bold;
+}
+.content .food {
+  color: gray;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  border-radius: 100px;
+  border: none;
+  font-size: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+#container-order {
+  text-align: center;
+}
+.oder {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.box {
+  width: 200px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.com {
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  width: 661px;
+  border: none;
+  background-color: #16db99;
+  color: white;
+}
+.com:hover {
+  cursor: pointer;
+}
+
+.total-price {
+  margin-top: 50px;
+}
+
+.show {
+  display: none;
+}
+.btn-remove {
+  font-size: 10px;
+  border: none;
+  margin-left: 4px;
+}
+.btn-remove:hover {
+  cursor: pointer;
+}
+.modal-container input {
+  display: inline;
+}
+
+.modal-container {
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  background-color: whitesmoke;
+}
+
+form {
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.btn-summit {
+  width: 320px;
+  height: 40px;
+  padding: 10px 0px;
+  border: none;
+  color: white;
+  background-color: #16db99;
+}
+.thank {
+  text-align: center;
+  color: #065f46;
+  padding: 10px 20px;
+  background: #ecfdf5;
+  margin-top: 10px;
+}
+
+.back {
+  background-color: #f5f5f5;
+}
